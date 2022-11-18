@@ -15,7 +15,7 @@ This is a PoC and as such, it's only meant to learn as much as possible. Even th
 
 - Having fetched the PoC branch you'll find under https://github.com/jcger/terraform-provider-elasticstack/tree/poc (Check out the prerequisites there)
 - Having installed the PoC branch build locally by running `make install` in the provider repo
-- Having ES and Kibana working, it's set up to the default parameters but they can be updated 
+- Having ES and Kibana up and running. The API calls are gonna be done to the default port with the default dev elastic user
 - Kibana must be running without base path, `yarn start --no-base-path`
 
 ### Run it
