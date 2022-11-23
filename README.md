@@ -2,11 +2,11 @@
 
 ## Disclamer
 
-
-This is a PoC and as such, it's only meant to learn as much as possible. Even though it might be working it doesn’t mean we will use it, nor that we will implement any of it. Therefore it's important to us keep improving our APIs and JSON payloads so they can be used by whatever tool to run "as code"
+This is a PoC and as such, it's only meant to learn as much as possible. Even though it might be working it doesn’t mean we will use it, nor that we will implement any of it. Therefore it's important for us to keep improving our APIs and JSON payloads so they can be used by whatever tool to run "as code"
 
 ## Current status
 
+- [Document](https://docs.google.com/document/d/17AyTwucVnovAU_YL4SaEaZ95JuaJzsTDJy_ZMNvQd2o/edit?usp=sharing)
 - [Weekly update](https://docs.google.com/presentation/d/1JXawPBALL3vcm8Yfs-BRGHM_GmNUPnkrPzdcWvt81sE/edit?usp=sharing)
 
 ## Try it out
