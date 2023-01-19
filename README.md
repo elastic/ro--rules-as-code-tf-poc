@@ -12,14 +12,16 @@ This is a PoC and as it, it's only meant to learn as much as possible. We might 
 
 ### Prerequisites
 
+- Use Kibana 8.5.3 branch
+- Use 8.5.3 ES build `yarn es snapshot --version 8.5.3`
 - Having fetched the PoC branch you'll find under https://github.com/jcger/terraform-provider-elasticstack/tree/poc (Check out the prerequisites there)
 - Having installed the PoC branch build locally by running `make install` in the provider repo
-- Having ES and Kibana working, it's set up to the default parameters but they can be updated 
-- Kibana must be running without base path, `yarn start --no-base-path`
+- Having ES and Kibana working, it's set up to the default parameters but they can be updated
+- Kibana must be running without base path, `yarn start --no-base-path` (important to add the no-base-path flag is it's the hardcoded url called by our patch)
 
 ### Run it
+
 - Initialize terraform running `terraform init`
 - Apply changes by running `terraform apply`
 
 Everything we now is written somewhere in the weekly update slides
-

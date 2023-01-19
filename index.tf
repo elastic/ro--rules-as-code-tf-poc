@@ -1,20 +1,3 @@
-terraform {
-  required_providers {
-    elasticstack = {
-      source  = "elastic/elasticstack"
-      version = "0.4.0"
-    }
-  }
-}
-
-provider "elasticstack" {
-  elasticsearch {
-    username  = "elastic"
-    password  = "changeme"
-    endpoints = ["http://localhost:9200"]
-  }
-}
-
 resource "elasticstack_elasticsearch_index" "my_index" {
   name = "my-index"
 
